@@ -1,0 +1,47 @@
+---
+layout: page
+title: "About"
+description: "Hi,I'm Han"
+header-img: "img/aboutBg.jpeg"
+---
+
+
+<!-- Chinese Version -->
+<div >
+    <blockquote>
+        没有什么会一瞬间改变，就像温水煮青蛙一样，在你还未发现不对劲时就已经被烫死了
+    </blockquote>
+    <div> 
+        你好，既然你点到这里了，我就必须厚着脸皮介绍一下我自己。<br>
+        邮箱: hanqizheng598@gmail.com<br>
+        github: hanqizheng<br>
+
+        记得star一下！！！！谢谢！
+    </div>  
+</div>
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}

@@ -514,7 +514,7 @@ pre code {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #003983;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -536,7 +536,7 @@ pre code {
   color: #a3a3a3;
 }
 .post-content-preview:hover {
-  color: #0085a1;
+  color: #003983;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {

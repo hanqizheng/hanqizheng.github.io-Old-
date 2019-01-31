@@ -467,7 +467,7 @@ pre code {
   font-size: 18px;
 }
 .intro-header .post-heading .meta a {
-  color: white;
+  color: #244664;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .post-heading h1 {
@@ -486,7 +486,7 @@ pre code {
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #0085a1;
+  color: #002e4d;
 }
 .post-preview > a > .post-title {
   font-size: 21px;
@@ -650,7 +650,7 @@ form .row:first-child .floating-label-form-group {
 .btn-default:focus {
   background-color: #0085a1;
   border: 1px solid #0085a1;
-  color: white;
+  color: #244664;
 }
 .pager {
   margin: 20px 0 0 !important;
